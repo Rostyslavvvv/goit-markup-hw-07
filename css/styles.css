@@ -1,5 +1,6 @@
 :root {
-  --Link: #2e2f42;
+  --Link-logo-menu: #2e2f42;
+  --text-nav-adres: #434455;
 }
 
 body {
@@ -11,19 +12,32 @@ body {
 /* Навігація силок */
 .nav-logo,
 .nav-menu {
-  color: #2e2f42;
+  color: var(--Link-logo-menu);
 }
 .nav-adres {
-  color: #434455;
+  color: var(--text-nav-adres);
 }
 /* зміна кольору слова Web */
 .nav-logo-web {
   color: #4d5ae5;
 }
 /* Зміна кольору при діях */
-.nav a:active,
-.nav a:hover,
+.nav-logo:active,
+.nav-logo:hover,
+.nav-menu:active,
+.nav-menu:hover,
 .nav-adres:active,
 .nav-adres:hover {
   color: #404bbf;
+}
+/* заголовок на рівні h2 */
+.title-h2 {
+  color: #2e2f42;
+}
+/* заголовок рівня h3 */
+.title-h3 {
+  color: #2e2f42;
+}
+.text {
+  color: var(--text-nav-adres);
 }
