@@ -59,9 +59,9 @@ p {
   cursor: pointer;
 }
 .button:focus {
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 /* відключення крапок */
 .list {
