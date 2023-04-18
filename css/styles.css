@@ -9,7 +9,7 @@ body {
   font-family: "Raleway", sans-serif;
   background-color: #ffffff;
 }
-/* Навігація силок */
+/* Навігація силок logo menu */
 .nav-logo,
 .nav-menu {
   color: var(--Link-logo-menu);
