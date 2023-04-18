@@ -1,5 +1,5 @@
 :root {
-  --text: #ffffff;
+  --Link: #2e2f42;
 }
 
 body {
@@ -7,4 +7,23 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
+}
+/* Навігація силок */
+.nav-logo,
+.nav-menu {
+  color: #2e2f42;
+}
+.nav-adres {
+  color: #434455;
+}
+/* зміна кольору слова Web */
+.nav-logo-web {
+  color: #4d5ae5;
+}
+/* Зміна кольору при діях */
+.nav a:active,
+.nav a:hover,
+.nav-adres:active,
+.nav-adres:hover {
+  color: #404bbf;
 }
