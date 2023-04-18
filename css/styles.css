@@ -23,22 +23,37 @@ body {
   color: #4d5ae5;
 }
 /* Зміна кольору при діях */
-.nav-logo:active,
-.nav-logo:hover,
-.nav-menu:active,
-.nav-menu:hover,
-.nav-adres:active,
-.nav-adres:hover {
+a:active,
+a:hover {
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
-.title-h2 {
+h2 {
   color: #2e2f42;
 }
 /* заголовок рівня h3 */
-.title-h3 {
+h3 {
   color: #2e2f42;
 }
-.text {
+p {
   color: var(--text-nav-adres);
+}
+button{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color:  #4d5ae5;
+  background-color:#F4F4FD;
+
+}
+button:hover{
+  color: #FFFFFF;
+  background-color: #404BBF;
+  cursor: pointer
+
+}
+button:focus{
+  background-color: #404BBF;
+  cursor: pointer
 }
