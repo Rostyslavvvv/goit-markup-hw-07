@@ -44,6 +44,7 @@ h3 {
 p {
   color: var(--text-nav-adres);
 }
+/* стиль кнопки */
 .button{
   font-weight: 500;
   font-size: 16px;
@@ -63,7 +64,7 @@ p {
   background-color:#FFFFFF;
   cursor: pointer
 }
-
+/* відключення крапок */
 .list{
   list-style: none;
   
