@@ -24,7 +24,7 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
-.nav-logo{
+.nav-logo {
   text-decoration: none;
 }
 /* Зміна кольору при діях */
@@ -44,27 +44,25 @@ p {
   color: var(--text-nav-adres);
 }
 /* стиль кнопки */
-.button{
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color:  #4d5ae5;
-  background-color:#F4F4FD;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
   font-family: "Roboto", sans-serif;
 }
-.button:hover{
-  color: #FFFFFF;
-  background-color: #404BBF;
-  cursor: pointer
-
+.button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
 }
-.button:focus{
-  background-color:#FFFFFF;
-  cursor: pointer
+.button:focus {
+  background-color: #ffffff;
+  cursor: pointer;
 }
 /* відключення крапок */
-.list{
+.list {
   list-style: none;
-  
 }
