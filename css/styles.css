@@ -27,6 +27,9 @@ body {
   color: #2E2F42;
   text-decoration: none;
 }
+.link{
+  text-decoration: none;
+}
 .nav-logo {
   color: #4d5ae5;
   font-weight: 800;
@@ -38,6 +41,7 @@ body {
   text-transform: uppercase;
 }
 .nav-menu {
+  font-weight: 500;
   font-style: Medium;
   font-size: 16px;
   line-height: 1.5;
@@ -109,7 +113,7 @@ p {
   background-color:#2e2f42;
 }
 .foter .nav-logo-studio{
-  color: #ffffff;
+  color: #f4f4fd;
 }
 .foter .nav-logo-studio:active,
 .foter .nav-logo-studio:hover{
