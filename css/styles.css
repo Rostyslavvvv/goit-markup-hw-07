@@ -7,7 +7,7 @@ body {
   background-color: #ffffff;
   background-color: #ffffff;
   letter-spacing: 0.02em;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
 }
 /* Навігація силок logo menu */
 .nav-logo,
@@ -32,7 +32,7 @@ body {
   font-size: 18px;
   line-height: 1.16;
   letter-spacing: 0.03;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 .nav-menu {
   font-style: Medium;
