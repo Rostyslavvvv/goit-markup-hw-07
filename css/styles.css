@@ -154,4 +154,5 @@ p {
 }
 .list-team{
   background-color: #FFFFFF;
+  list-style: none;
 }
