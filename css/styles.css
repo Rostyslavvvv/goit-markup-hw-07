@@ -46,7 +46,8 @@ body {
 a:active,
 a:hover,
 .nav-logo-studio:active,
-.nav-logo-studio:hover {
+.nav-logo-studio:hover
+ {
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
@@ -102,4 +103,15 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  /* foter */
+}
+.foter{
+  background-color:#2e2f42;
+}
+.foter .nav-logo-studio{
+  color: #ffffff;
+}
+.foter .nav-logo-studio:active,
+.foter .nav-logo-studio:hover{
+  color: #404bbf;
 }
