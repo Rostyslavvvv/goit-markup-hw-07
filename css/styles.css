@@ -55,9 +55,7 @@ a:focus,
 .nav-logo-studio:hover,
 .link:focus,
 .link:active,
-.link:hover,
-
- {
+.link:hover{
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
@@ -123,6 +121,7 @@ p {
 }
 .foter .nav-logo-studio:active,
 .foter .nav-logo-studio:focus,
-.foter .nav-logo-studio:hover{
+.foter .nav-logo-studio:hover
+{
   color: #404bbf;
 }
