@@ -55,7 +55,7 @@ a:focus,
 .nav-logo-studio:hover,
 .link:focus,
 .link:active,
-.link:hover,{
+.link:hover{
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
