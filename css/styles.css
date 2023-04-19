@@ -50,7 +50,9 @@ body {
 a:active,
 a:hover,
 .nav-logo-studio:active,
-.nav-logo-studio:hover
+.nav-logo-studio:hover,
+.link:active,
+.link:hover
  {
   color: #404bbf;
 }
