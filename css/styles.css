@@ -23,16 +23,19 @@ body {
   line-height: 1.5;
 }
 /* зміна кольору слова Web */
-.nav-logo-web {
-  color: #4d5ae5;
+.nav-logo-studio  {
+  color: #2E2F42;
   text-decoration: none;
 }
 .nav-logo {
+  color: #4d5ae5;
+  font-weight: 800;
   font-style: ExtraBold;
   font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   font-family: Raleway, sans-serif;
+  line-height: 1.17;
+  text-transform: uppercase;
 }
 .nav-menu {
   font-style: Medium;
@@ -41,7 +44,9 @@ body {
 }
 /* Зміна кольору при діях */
 a:active,
-a:hover {
+a:hover,
+.nav-logo-studio:active,
+.nav-logo-studio:hover {
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
