@@ -55,10 +55,7 @@ a:focus,
 .nav-logo-studio:hover,
 .link:focus,
 .link:active,
-.link:hover,
-.button.hero:active,
-.button.hero:hover,
-.button.hero:focus{
+.link:hover,{
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
@@ -145,4 +142,9 @@ p {
 .button.hero{
   background-color: #4D5AE5 ;
   color: #ffffff;
+}
+.button.hero:hover,
+.button.hero:focus{
+  cursor: pointer;
+  background-color: #404BBF
 }
