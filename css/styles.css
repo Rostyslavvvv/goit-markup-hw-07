@@ -5,7 +5,6 @@
 body {
   color: #434455;
   background-color:var(--link-color);
-  letter-spacing: 0.02em;
   font-family: Roboto, sans-serif;
 }
 /* виключення стилів для списків */
