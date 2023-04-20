@@ -5,7 +5,6 @@
 body {
   color: #434455;
   background-color: #ffffff;
-  background-color: #ffffff;
   letter-spacing: 0.02em;
   font-family: Roboto, sans-serif;
 }
@@ -59,15 +58,8 @@ a:focus,
   color: #404bbf;
 }
 /* заголовок на рівні h2 */
-h2 {
+.title-section {
   color: #2e2f42;
-}
-/* заголовок рівня h3 */
-h3 {
-  color: #2e2f42;
-}
-p {
-  color: var(--text-nav-adres);
 }
 /* стиль кнопки */
 .button {
@@ -103,6 +95,7 @@ p {
   text-transform: capitalize;
 }
 .list-title {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -112,6 +105,7 @@ p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5; 
+  color: var(--text-nav-adres);
   /* foter */
 }
 .foter{
@@ -128,6 +122,9 @@ p {
 }
 .adres{
   font-style: normal;
+}
+.text-foter{
+  color: #F4F4FD;
 }
 /* hero */
 .hero{
