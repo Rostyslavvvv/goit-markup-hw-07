@@ -1,6 +1,10 @@
+:root {
+  --link-color:#ffffff;)
+}
+
 body {
   color: #434455;
-  background-color: #ffffff;
+  background-color:var(--link-color);
   letter-spacing: 0.02em;
   font-family: Roboto, sans-serif;
 }
@@ -10,13 +14,14 @@ body {
 }
 /* Логотип шапки */
 .logo-nav {
-  font-family: "raleway", sans-serif;
-  font-style: "ExtraBold";
+  font-family: 'raleway', sans-serif;
+  font-style: 'ExtraBold';
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
   font-weight: 800;
+  text-transform: uppercase; 
 }
 .logo-studio {
   color: #2e2f42;
@@ -25,7 +30,7 @@ body {
 .menu-nav a {
   color: #2e2f42;
   font-weight: 500;
-  font-style: "Medium";
+  font-style: 'Medium';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -33,10 +38,11 @@ body {
 /* адрес */
 .adres a {
   color: #434455;
-  font-style: "Regular";
+  font-style: 'Regular';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 /* Зміна кольору при діях */
 .link:active,
@@ -52,21 +58,23 @@ body {
   background-color: #2e2f42;
 }
 .title-hero {
-  color: #ffffff;
-  font-style: "Bold";
+  color: var(--link-color);
+  font-style: 'Bold';
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 /* не активна кнопка */
 .button {
-  color: #ffffff;
+  color: var(--link-color);
   background-color: #4d5ae5;
-  font-style: "Medium";
+  font-style: 'Medium';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
+  font-family: 'Roboto', sans-serif;
 }
 /* активна кнопка */
 .button:hover,
@@ -78,16 +86,18 @@ body {
 /* Заголовки секцій */
 .title-section {
   color: #2e2f42;
-  font-style: "Bold";
+  font-style: 'Bold';
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 2%;
+  text-align: center;
+  text-transform: capitalize;
 }
 /* заголовок підсекцій */
 .title {
   font-weight: 500;
   color: #2e2f42;
-  font-style: "Medium";
+  font-style: 'Medium';
   font-size: 20px;
   line-height: 1.2;
   text-align: Left;
@@ -95,9 +105,9 @@ body {
 }
 /* текст */
 .text {
-  font-style: "Regular";
+  font-style: 'Regular';
   font-size: 16px;
-  line-height: 0.7;
+  line-height: 1.5;
   text-align: Left;
   letter-spacing: 0.02em;
 }
@@ -106,14 +116,14 @@ body {
   background-color: #f4f4fd;
 }
 .list li {
-  background-color: #ffffff;
+  background-color:var(--link-color);
 }
 /* foter */
 .footer {
   background-color: #2e2f42;
 }
 .logo-footer {
-  color: #ffffff;
+  color:var(--link-color);
 }
 .text-footer {
   color: #f4f4fd;
@@ -136,6 +146,6 @@ letter-spacing: 0.02em;
 .button.filter:active,
 .button.filter:hover,
 .button.filter:focus{
-  color: #FFFFFF;
+  color:var(--link-color);
   background-color:#404BBF ;
 }
