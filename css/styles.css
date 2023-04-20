@@ -1,155 +1,141 @@
-:root {
-  --Link-logo-menu: #2e2f42;
-  --text-nav-adres: #434455;
-}
 body {
   color: #434455;
   background-color: #ffffff;
   letter-spacing: 0.02em;
   font-family: Roboto, sans-serif;
 }
-/* Навігація силок logo menu */
-.nav-logo,
-.nav-menu {
-  color: var(--Link-logo-menu);
-  text-decoration: none;
-}
-.nav-adres {
-  color: var(--text-nav-adres);
-  text-decoration: none;
-  font-style: Regular;
-  font-size: 16px;
-  line-height: 1.5;
-}
-/* зміна кольору слова Web */
-.nav-logo-studio  {
-  color: #2E2F42;
-  text-decoration: none;
-}
-.link{
-  text-decoration: none;
-}
-.nav-logo {
-  color: #4d5ae5;
-  font-weight: 800;
-  font-style: ExtraBold;
-  font-size: 18px;
-  letter-spacing: 0.03em;
-  font-family: Raleway, sans-serif;
-  line-height: 1.17;
-  text-transform: uppercase;
-}
-.nav-menu {
-  font-weight: 500;
-  font-style: Medium;
-  font-size: 16px;
-  line-height: 1.5;
-}
-/* Зміна кольору при діях */
-a:active,
-a:hover,
-a:focus,
-.nav-logo-studio:focus,
-.nav-logo-studio:active,
-.nav-logo-studio:hover,
-.link:focus,
-.link:active,
-.link:hover{
-  color: #404bbf;
-}
-/* заголовок на рівні h2 */
-.title-section {
-  color: #2e2f42;
-}
-/* стиль кнопки */
-.button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-  font-family: inherit;
-}
-.button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
-  cursor: pointer;
-}
-.button:focus {
-  color: #ffffff;
-  cursor: pointer;
-  background-color: #404bbf;
-}
-/* відключення крапок */
+/* виключення стилів для списків */
 .list {
   list-style: none;
 }
-/* заголовок секцій */
-.title-section {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize;
+/* Логотип шапки */
+.logo-nav {
+  font-family: "raleway", sans-serif;
+  font-style: "ExtraBold";
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  font-weight: 800;
 }
-.list-title {
+.logo-studio {
+  color: #2e2f42;
+}
+/* Меню  */
+.menu-nav a {
   color: #2e2f42;
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-style: "Medium";
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.text{
-  font-weight: 400;
+/* адрес */
+.adres a {
+  color: #434455;
+  font-style: "Regular";
   font-size: 16px;
-  line-height: 1.5; 
-  color: var(--text-nav-adres);
-  /* foter */
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.foter{
-  background-color:#2e2f42;
-}
-.foter .nav-logo-studio{
-  color: #f4f4fd;
-}
-.foter .nav-logo-studio:active,
-.foter .nav-logo-studio:focus,
-.foter .nav-logo-studio:hover
-{
+/* Зміна кольору при діях */
+.link:active,
+.link:hover,
+.link:focus {
   color: #404bbf;
 }
-.adres{
-  font-style: normal;
+.link {
+  text-decoration: none;
 }
-.text-foter{
-  color: #F4F4FD;
+/* hero  */
+.hero {
+  background-color: #2e2f42;
 }
-/* hero */
-.hero{
-  background-color:#2e2f42;
-}
-.title-hero{
+.title-hero {
+  color: #ffffff;
+  font-style: "Bold";
   font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
+  line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
-.button.hero{
-  background-color: #4D5AE5 ;
+/* не активна кнопка */
+.button {
   color: #ffffff;
+  background-color: #4d5ae5;
+  font-style: "Medium";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
-.button.hero:hover,
-.button.hero:focus{
+/* активна кнопка */
+.button:hover,
+.button:active,
+.button:focus {
+  background-color: #404bbf;
   cursor: pointer;
-  background-color: #404BBF
 }
-.section-team{
-  background-color: #F4F4FD;
+/* Заголовки секцій */
+.title-section {
+  color: #2e2f42;
+  font-style: "Bold";
+  font-size: 36px;
+  line-height: 1.12;
+  letter-spacing: 2%;
 }
-.list-team{
-  background-color: #FFFFFF;
-  list-style: none;
+/* заголовок підсекцій */
+.title {
+  font-weight: 500;
+  color: #2e2f42;
+  font-style: "Medium";
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: Left;
+  letter-spacing: 0.02em;
+}
+/* текст */
+.text {
+  font-style: "Regular";
+  font-size: 16px;
+  line-height: 0.7;
+  text-align: Left;
+  letter-spacing: 0.02em;
+}
+/* фон секції команди */
+.team-fon {
+  background-color: #f4f4fd;
+}
+.list li {
+  background-color: #ffffff;
+}
+/* foter */
+.footer {
+  background-color: #2e2f42;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.text-footer {
+  color: #f4f4fd;
+}
+/* загаловок карточок */
+.title-card{
+  color: #2E2F42;
+  font-weight: 500;
+font-style: 'Medium';
+font-size: 20px;
+line-height: 1.2;
+text-align: left;
+letter-spacing: 0.02em;
+}
+/* кнопки фільтрів */
+.button.filter{
+  color: #4D5AE5;
+  background-color:#E7E9FC ;
+}
+.button.filter:active,
+.button.filter:hover,
+.button.filter:focus{
+  color: #FFFFFF;
+  background-color:#404BBF ;
 }
