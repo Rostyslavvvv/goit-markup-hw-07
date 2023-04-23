@@ -12,6 +12,10 @@ body {
   list-style: none;
 }
 /* Логотип шапки */
+.container{
+  background-color: #4D5AE5;
+
+}
 .logo-nav {
   font-family: "Raleway", sans-serif;
   font-style: 'ExtraBold';
@@ -26,6 +30,7 @@ body {
   color: #2e2f42;
 }
 /* Меню  */
+
 .menu-nav a {
   color: #2e2f42;
   font-weight: 500;
@@ -35,6 +40,7 @@ body {
   letter-spacing: 0.02em;
 }
 /* адрес */
+
 .adres a {
   color: #434455;
   font-style: 'Regular';
@@ -68,6 +74,7 @@ body {
 }
 /* не активна кнопка */
 .button {
+  display: inline-block;
   color: var(--link-color);
   background-color: #4d5ae5;
   font-style: 'Medium';
@@ -76,6 +83,11 @@ body {
   letter-spacing: 0.04em;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
+  padding: 12px 24px ;
+}
+.button.order{
+  padding: 16px 32px ;
 }
 /* активна кнопка */
 .button:hover,
