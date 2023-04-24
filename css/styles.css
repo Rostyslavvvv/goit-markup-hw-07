@@ -5,6 +5,8 @@
   margin: 0;
   margin-left: 0;
   padding-inline-start: 0;
+  gap: 40px;
+  padding: 24px 0 ;
 }
 body {
   color: #434455;
