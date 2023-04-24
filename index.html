@@ -11,137 +11,148 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
     <header>
+     <div class="container">
       <nav>
-        <a href="./index.html" class="logo-nav link"
-          >Web<span class="logo-studio link">Studio</span></a
-        >
         <ul class="menu-nav list">
-          <li>
+        <li class="item">
+        <a href="./index.html" class="logo-nav link"
+          >Web<span class="logo-studio link">Studio</span></a>
+      </li>
+          <li class="item">
             <a href="./index.html" class="link">Studio</a>
           </li>
-          <li>
+          <li class="item">
             <a href="./portfolio.html" class="link">Portfolio</a>
           </li>
-          <li>
+          <li class="item">
             <a href="" class="link">Contacts</a>
           </li>
         </ul>
       </nav>
       <address class="adres">
         <ul class="list">
-          <li>
+          <li class="item">
             <a href="mailto:info@devstudio.com" class="link"
               >info@devstudio.com</a
             >
-          </li>
-          <li>
+          </li class="item">
+          <li class="item">
             <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
+     </div>
     </header>
     <!--Section-1 Герой -->
     <main>
       <section class="hero">
-        <h1 class="title-hero">Effective Solutions for Your Business</h1>
-        <button type="button" class="button">Order Service</button>
+        <div class="container">
+          <h1 class="title-hero">Effective Solutions for Your Business</h1>
+        <button type="button" class="button order">Order Service</button>
+        </div>
       </section>
       <!-- Section-2 Підхід до творчого вирішення проблем у бізнес-стратегії -->
       <section>
-        <h2 hidden class="title-section">
-          Approach to Creative Problem Solving in Business Strategy
-        </h2>
-        <ul class="list">
-          <li>
-            <h3 class="title">Strategy</h3>
-            <p class="text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Punctuality</h3>
-            <p class="text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Diligence</h3>
-            <p class="text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="title">Technologies</h3>
-            <p class="text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+        <div class="container">
+          <h2 hidden class="title-section">
+            Approach to Creative Problem Solving in Business Strategy
+          </h2>
+          <ul class="list">
+            <li class="item">
+              <h3 class="title">Strategy</h3>
+              <p class="text">
+                Our goal is to identify the business problem to walk away with the
+                perfect and creative solution.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Punctuality</h3>
+              <p class="text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Diligence</h3>
+              <p class="text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="item">
+              <h3 class="title">Technologies</h3>
+              <p class="text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Section-3 Що ми робимо -->
       <section>
-        <h2 class="title-section">What are we doing</h2>
+        <div class="container">
+          <h2 class="title-section">What are we doing</h2>
         <ul class="list">
-          <li>
+          <li class="item">
             <img src="./images/img1.jpg" alt="Monitor" width="360" />
           </li>
-          <li>
-            <img src="./images/img2.jpg" alt="Smartphone" width="360" />
+          <li class="item">
+            <img src="./images/img2.jpg" alt="Smartphone" width="360"/>
           </li>
-          <li>
+          <li class="item">
             <img
-              src="./images/img3.jpg"
-              alt="Smartphone and laptop"
-              width="360"
-            />
+              src="./images/img3.jpg"alt="Smartphone and laptop" width="360"/>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Section-4 Наша команда -->
       <section class="team-fon">
-        <h2 class="title-section">Our Team</h2>
+        <div class="container">
+          <h2 class="title-section">Our Team</h2>
         <ul class="list">
-          <li class="team">
-            <img src="./images/img4.jpg" alt="Mark Guerrero" width="264" />
+          <li class="item team">
+            <img src="./images/img4.jpg" alt="Mark Guerrero" width="264"  class="photo-team"/>
             <h3 class="title">Mark Guerrero</h3>
             <p class="text">Product Designer</p>
           </li>
-          <li class="team">
-            <img src="./images/img5.jpg" alt="Tom Ford" width="264" />
+          <li class="item team">
+            <img src="./images/img5.jpg" alt="Tom Ford" width="264" class="photo-team" />
             <h3 class="title">Tom Ford</h3>
             <p class="text">Frontend Developer</p>
           </li>
-          <li class="team">
-            <img src="./images/img6.jpg" alt="Camila Garcia" width="264" />
+          <li class="item team">
+            <img src="./images/img6.jpg" alt="Camila Garcia" width="264"  class="photo-team"/>
             <h3 class="title">Camila Garcia</h3>
             <p class="text">Marketing</p>
           </li>
-          <li class="team">
-            <img src="./images/img7.jpg" alt="Daniel Wilson" width="264" />
+          <li class="item team">
+            <img src="./images/img7.jpg" alt="Daniel Wilson" width="264"  class="photo-team"/>
             <h3 class="title">Daniel Wilson</h3>
             <p class="text">UI Designer</p>
           </li>
         </ul>
       </section>
+        </div>
     </main>
     <!-- Футер -->
     <footer class="footer">
+     <div class="container">
       <a href="./index.html" class="logo-nav link"
-        >Web<span class="logo-footer link">Studio</span></a
-      >
-      <p class="text text-footer">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      >Web<span class="logo-footer link">Studio</span></a
+    >
+    <p class="text text-footer">
+      Increase the flow of customers and sales for your business with digital
+      marketing & growth solutions.
+    </p>
+     </div>
     </footer>
   </body>
 </html>
