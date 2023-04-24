@@ -3,6 +3,8 @@
 }
 .list{
  margin: 0;
+ margin-left: 0;
+ padding-inline-start: 0;
 }
 body {
   color: #434455;
@@ -37,6 +39,15 @@ body {
   color: #2e2f42;
 }
 /* Меню  */
+.menu-nav{
+  display: flex;
+}
+.menu-nav .item + .item{
+margin-left: 40px;
+margin-right: 0;
+}
+ 
+}
 .menu-nav a {
   color: #2e2f42;
   font-weight: 500;
@@ -96,6 +107,8 @@ body {
   padding:16px 32px ;
 }
 .button {
+min-width: 116px;
+
   color: var(--link-color);
   background-color: #4d5ae5;
   font-style: 'Medium';
@@ -104,6 +117,7 @@ body {
   letter-spacing: 0.04em;
   font-weight: 500;
   font-family: 'Roboto', sans-serif;
+  border-radius: 4px;
 }
 /* активна кнопка */
 .button:hover,
@@ -189,7 +203,7 @@ margin-bottom: 0;
 /* загаловок карточок */
 .title-card{
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 8px;
 
   color: #2E2F42;
   font-weight: 500;
