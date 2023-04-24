@@ -17,9 +17,18 @@ img{
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1152px;
-  padding-left: 12px;
-  padding-right: 12px;
+  width: 1158px;
+  padding: 0 15px
+}
+.nav{
+  display: flex; 
+  align-items: center;
+}
+.head .container{
+  display: flex;
+}
+.nav .logo-nav{
+  margin-right: 76px
 }
 /* виключення стилів для списків */
 .list {
@@ -29,6 +38,9 @@ img{
   margin-left: 332px;
   margin-top: 24px;
   margin-bottom: 24px;
+}
+.head{
+  border-bottom: 1px solid #e7e9fc;
 }
 /* Логотип шапки */
 .logo-nav {
@@ -45,6 +57,10 @@ img{
   color: #2e2f42;
 }
 /* Меню  */
+.menu-nav{
+  display: flex;
+  gap: 40px
+}
 
 .menu-nav a {
   color: #2e2f42;
@@ -62,6 +78,12 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.adres .list{
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+  padding-left: 332px;
+}
 .adres {
   font-style: normal;
 }
@@ -76,8 +98,7 @@ img{
 }
 /* hero  */
 .hero .container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   min-height: 600px;
 }
 .hero {
@@ -103,6 +124,10 @@ img{
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
 }
 .button {
   min-width: 116px;
@@ -136,6 +161,10 @@ img{
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+}
+.section{
+  padding: 120px 0;
+
 }
 /* заголовок підсекцій */
 .title {
@@ -220,4 +249,8 @@ img{
 .button.filter:focus {
   color: var(--link-color);
   background-color: #404bbf;
+}
+
+.container .list{
+  display: flex;
 }
