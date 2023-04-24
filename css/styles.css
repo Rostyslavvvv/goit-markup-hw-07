@@ -5,8 +5,6 @@
   margin: 0;
   margin-left: 0;
   padding-inline-start: 0;
-  gap: 40px;
-  padding: 24px 0 ;
 }
 body {
   color: #434455;
@@ -62,10 +60,7 @@ img {
 /* Меню  */
 .menu-nav {
   display: flex;
-}
-.menu-nav .item{
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-nav a {
@@ -219,10 +214,11 @@ img {
   padding-bottom: 100px;
 }
 .footer .logo-nav {
-  display: inline-block;
+  display:inline-block;
   margin-top: 0;
   margin-bottom: 16px;
   padding: 100px 0;
+  
 }
 .text-footer {
   max-width: 264px;
