@@ -60,7 +60,10 @@ img {
 /* Меню  */
 .menu-nav {
   display: flex;
+}
+.menu-nav .item{
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-nav a {
