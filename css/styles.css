@@ -11,24 +11,24 @@ body {
   background-color: var(--link-color);
   font-family: Roboto, sans-serif;
 }
-img{
+img {
   display: block;
 }
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
-  padding: 0 15px
+  padding: 0 15px;
 }
-.nav{
-  display: flex; 
+.nav {
+  display: flex;
   align-items: center;
 }
-.head .container{
+.head .container {
   display: flex;
 }
-.nav .logo-nav{
-  margin-right: 76px
+.nav .logo-nav {
+  margin-right: 76px;
 }
 /* виключення стилів для списків */
 .list {
@@ -39,7 +39,7 @@ img{
   margin-top: 24px;
   margin-bottom: 24px;
 }
-.head{
+.head {
   border-bottom: 1px solid #e7e9fc;
 }
 /* Логотип шапки */
@@ -57,9 +57,9 @@ img{
   color: #2e2f42;
 }
 /* Меню  */
-.menu-nav{
+.menu-nav {
   display: flex;
-  gap: 40px
+  gap: 40px;
 }
 
 .menu-nav a {
@@ -78,7 +78,7 @@ img{
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.adres .list{
+.adres .list {
   display: flex;
   padding: 24px 0;
   gap: 40px;
@@ -162,9 +162,8 @@ img{
   text-align: center;
   text-transform: capitalize;
 }
-.section{
+.section {
   padding: 120px 0;
-
 }
 /* заголовок підсекцій */
 .title {
@@ -251,6 +250,6 @@ img{
   background-color: #404bbf;
 }
 
-.container .list{
+.container .list {
   display: flex;
 }
