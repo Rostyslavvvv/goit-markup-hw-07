@@ -95,7 +95,7 @@ img {
   text-decoration: none;
 }
 /* hero  */
-.hero .container {
+.hero {
   padding: 188px 0 ;
 }
 .hero {
@@ -127,8 +127,6 @@ img {
   cursor: pointer;
 }
 .button {
-  min-width: 116px;
-
   color: var(--link-color);
   background-color: #4d5ae5;
   font-style: "Medium";
