@@ -42,6 +42,7 @@ img {
 /* шапка сторінки */
 .head .container {
   display: flex;
+  padding-bottom: 0;
 }
 .nav {
   display: flex;
@@ -143,7 +144,7 @@ img {
   border: none;
   cursor: pointer;
 }
-/* кнопки в профілю */
+/* властивість для всіх кнопок */
 .button {
   color: var(--link-color);
   background-color: #4d5ae5;
@@ -164,12 +165,34 @@ img {
 }
 /* кнопки фільтрів */
 .button.filter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 116px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #e7e9fc;
+
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.filter-all {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 69px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 1px solid #e7e9fc;
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
 .button.filter:active,
 .button.filter:hover,
-.button.filter:focus {
+.button.filter:focus,
+.filter-all:focus,
+.filter-all:hover,
+.filter-all:active {
   color: var(--link-color);
   background-color: #404bbf;
 }
@@ -268,6 +291,28 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
+.name-products{
+  padding-top: 32px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  text-align: left;
+  border: 1px solid #E7E9FC;
+}
 .name .text {
   text-align: center;
 }
+.list-button {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 76px;
+  padding-top: 96px;
+}
+.section-portfolio {
+  padding-bottom: 120px;
+}
+.container .list-products{
+  display: flex;
+  flex-wrap:wrap;
+  gap:48px 24px ;
+}
+
