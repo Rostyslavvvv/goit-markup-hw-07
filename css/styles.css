@@ -175,23 +175,13 @@ img {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.filter-all {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.item .filter-all {
   min-width: 69px;
-  padding: 12px 24px;
-  border: 1px solid #e7e9fc;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
 }
 .button.filter:active,
 .button.filter:hover,
-.button.filter:focus,
-.filter-all:focus,
-.filter-all:hover,
-.filter-all:active {
-  color: var(--link-color);
+.button.filter:focus {
+  color:var(--link-color);
   background-color: #404bbf;
   border: 1px solid;
 }
