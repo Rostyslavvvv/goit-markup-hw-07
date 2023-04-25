@@ -3,13 +3,15 @@
 }
 .list {
   margin: 0;
-  margin-left: 0;
   padding-inline-start: 0;
 }
 body {
   color: #434455;
   background-color: var(--link-color);
   font-family: Roboto, sans-serif;
+}
+.item .link{
+  padding: 24px 0;
 }
 img {
   display: block;
@@ -58,7 +60,7 @@ img {
   color: #2e2f42;
 }
 /* Меню  */
-.menu-nav {
+.menu-nav .item {
   display: flex;
   gap: 40px;
 }
