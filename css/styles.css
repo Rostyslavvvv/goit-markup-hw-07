@@ -1,33 +1,34 @@
 :root {
   --link-color: #ffffff;
 }
-
 body {
   color: #434455;
   background-color: var(--link-color);
   font-family: Roboto, sans-serif;
 }
-.item .link {
-  padding: 24px 0;
+.container .list {
+  display: flex;
+  gap: 24px;
 }
+/* Відступи у секції 2 . вирішення проблем */
+.list-prob .item {
+  width: calc((100% - 72px) / 4);
+}
+/* властивість фото */
 img {
   display: block;
 }
+/* властивість для всіх контейнерів */
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
   padding: 0 15px;
 }
-.nav {
-  display: flex;
-  align-items: center;
-}
-.head .container {
-  display: flex;
-}
-.nav .logo-nav {
-  margin-right: 76px;
+/* посилання */
+.link {
+  text-decoration: none;
+  padding: 24px 0;
 }
 /* виключення стилів для списків */
 .list {
@@ -37,15 +38,23 @@ img {
   margin: 0;
   padding-left: 0;
 }
-.nav-container .adres {
-  margin-left: 332px;
-  margin-top: 24px;
-  margin-bottom: 24px;
+
+/* шапка сторінки */
+.head .container {
+  display: flex;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+/* Логотип шапки */
+.nav .logo-nav {
+  margin-right: 76px;
 }
 .head {
   border-bottom: 1px solid #e7e9fc;
 }
-/* Логотип шапки */
 .logo-nav {
   font-family: "Raleway", sans-serif;
   font-style: "ExtraBold";
@@ -70,6 +79,11 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.container .nav .menu-nav {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+}
 /* адрес */
 .adres a {
   color: #434455;
@@ -81,20 +95,27 @@ img {
 .adres {
   font-style: normal;
 }
+.nav-container .adres {
+  margin-left: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.adres .list {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+  padding-left: 332px;
+}
 /* Зміна кольору при діях */
 .link:active,
 .link:hover,
 .link:focus {
   color: #404bbf;
 }
-.link {
-  text-decoration: none;
-}
+
 /* hero  */
 .hero {
   padding: 188px 0;
-}
-.hero {
   background-color: #2e2f42;
 }
 .title-hero {
@@ -111,7 +132,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-/* не активна кнопка */
+/* не активна кнопка героя */
 .order {
   display: block;
   margin-left: auto;
@@ -122,6 +143,7 @@ img {
   border: none;
   cursor: pointer;
 }
+/* кнопки в профілю */
 .button {
   color: var(--link-color);
   background-color: #4d5ae5;
@@ -139,6 +161,17 @@ img {
 .button:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+/* кнопки фільтрів */
+.button.filter {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.button.filter:active,
+.button.filter:hover,
+.button.filter:focus {
+  color: var(--link-color);
+  background-color: #404bbf;
 }
 /* Заголовки секцій */
 .title-section {
@@ -227,21 +260,7 @@ img {
   text-align: left;
   letter-spacing: 0.02em;
 }
-/* кнопки фільтрів */
-.button.filter {
-  color: #4d5ae5;
-  background-color: #f4f4fd;
-}
-.button.filter:active,
-.button.filter:hover,
-.button.filter:focus {
-  color: var(--link-color);
-  background-color: #404bbf;
-}
-.container .list {
-  display: flex;
-  gap: 24px;
-}
+/* заголовки під фото карточками команди */
 .name {
   padding: 32px 16px;
 }
@@ -251,18 +270,4 @@ img {
 }
 .name .text {
   text-align: center;
-}
-.container .menu-nav {
-  display: flex;
-  gap: 40px;
-  padding-left: 0;
-}
-.adres .list {
-  display: flex;
-  padding: 24px 0;
-  gap: 40px;
-  padding-left: 332px;
-}
-.list-prob .item {
-  width: calc((100% - 72px) / 4);
 }
