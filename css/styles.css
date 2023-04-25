@@ -63,10 +63,7 @@ img {
   color: #2e2f42;
 }
 /* Меню  */
-.menu-nav{
-  display: flex;
-  gap: 40px;
-}
+
 
 .menu-nav a {
   color: #2e2f42;
@@ -266,4 +263,8 @@ img {
 }
 .name .text{
   text-align: center;
+}
+.container .menu-nav{
+  display: flex;
+  gap: 40px;
 }
