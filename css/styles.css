@@ -178,7 +178,7 @@ img {
 .button.filter:hover,
 .button.filter:focus {
   border: 1px solid transparent;
-  color:var(--link-color);
+  color: var(--link-color);
   background-color: #404bbf;
 }
 .list-button {
@@ -298,5 +298,5 @@ img {
 .name-products {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
 }
