@@ -249,7 +249,6 @@ img {
   color: var(--link-color);
   background-color: #404bbf;
 }
-
 .container .list {
   display: flex;
   gap: 24px;
