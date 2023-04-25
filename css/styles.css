@@ -195,6 +195,11 @@ img {
   background-color: #404bbf;
   border: 1px solid;
 }
+.list-button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
 /* Заголовки секцій */
 .title-section {
   margin-top: 0;
@@ -291,24 +296,21 @@ img {
   margin-bottom: 8px;
   border-top: none;
 }
-.name-products {
-  padding: 32px 16px;
-  text-align: left;
-  border: 1px solid #e7e9fc;
-}
 .name .text {
   text-align: center;
 }
-.list-button {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
-}
-.section-portfolio {
-  padding: 96px 0 120px;
-}
+/* контейнер списку продуктів */
 .container .list-products {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
+}
+.section-portfolio {
+  padding: 96px 0 120px;
+}
+/* Карточки з назвою продуктів */
+.name-products {
+  padding: 32px 16px;
+  text-align: left;
+  border: 1px solid #e7e9fc;
 }
