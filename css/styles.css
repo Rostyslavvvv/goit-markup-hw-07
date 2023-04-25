@@ -2,7 +2,7 @@
   --link-color: #ffffff;
 }
 
-.item-problem .title{
+.item-problem .title {
   width: calc((100% - 72px) / 4);
 }
 body {
@@ -10,7 +10,7 @@ body {
   background-color: var(--link-color);
   font-family: Roboto, sans-serif;
 }
-.item .link{
+.item .link {
   padding: 24px 0;
 }
 img {
@@ -64,7 +64,6 @@ img {
 }
 /* Меню  */
 
-
 .menu-nav a {
   color: #2e2f42;
   font-weight: 500;
@@ -81,7 +80,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 .adres {
   font-style: normal;
 }
@@ -96,7 +94,7 @@ img {
 }
 /* hero  */
 .hero {
-  padding: 188px 0 ;
+  padding: 188px 0;
 }
 .hero {
   background-color: #2e2f42;
@@ -207,7 +205,7 @@ img {
   padding: 100px 0;
 }
 .footer .logo-nav {
-  display:inline-block;
+  display: inline-block;
   margin-top: 0;
   margin-bottom: 16px;
 }
@@ -246,20 +244,20 @@ img {
   display: flex;
   gap: 24px;
 }
-.name{
+.name {
   padding: 32px 16px;
 }
-.name .title{
+.name .title {
   text-align: center;
   margin-bottom: 8px;
 }
-.name .text{
+.name .text {
   text-align: center;
 }
-.container .menu-nav{
+.container .menu-nav {
   display: flex;
   gap: 40px;
-padding-left: 0;
+  padding-left: 0;
 }
 .adres .list {
   display: flex;
