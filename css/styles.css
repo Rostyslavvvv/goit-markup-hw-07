@@ -178,7 +178,6 @@ img {
 .item .filter-all {
   min-width: 69px;
 }
-.button.filter:active,
 .button.filter:hover,
 .button.filter:focus {
   color:var(--link-color);
