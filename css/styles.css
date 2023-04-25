@@ -1,10 +1,7 @@
 :root {
   --link-color: #ffffff;
 }
-.list {
-  margin: 0;
-  padding-inline-start: 0;
-}
+
 .item-problem{
   width: calc((100% - 72px) / 4);
 }
@@ -40,6 +37,7 @@ img {
   list-style: none;
   display: flex;
   gap: 40px;
+  margin: 0;
 }
 .nav-container .adres {
   margin-left: 332px;
