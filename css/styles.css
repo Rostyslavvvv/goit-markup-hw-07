@@ -1,9 +1,7 @@
 :root {
   --link-color: #ffffff;
 }
-.list li.first {
-  width: calc((100% - 72px) / 4);
-}
+
 body {
   color: #434455;
   background-color: var(--link-color);
@@ -263,4 +261,7 @@ img {
   padding: 24px 0;
   gap: 40px;
   padding-left: 332px;
+}
+.list-prob .item {
+  width: calc((100% - 72px) / 4);
 }
