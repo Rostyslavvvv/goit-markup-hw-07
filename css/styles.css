@@ -63,7 +63,7 @@ img {
   color: #2e2f42;
 }
 /* Меню  */
-.menu-nav .item {
+.menu-nav{
   display: flex;
   gap: 40px;
 }
@@ -103,7 +103,7 @@ img {
   text-decoration: none;
 }
 /* hero  */
-.hero.container {
+.hero .container {
   padding: 188px 0;
 }
 .hero {
@@ -214,8 +214,6 @@ img {
 }
 .footer {
   background-color: #2e2f42;
-}
-.footer .container {
   padding: 100px 0;
 }
 .footer .logo-nav {
