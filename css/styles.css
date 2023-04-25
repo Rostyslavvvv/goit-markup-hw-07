@@ -38,6 +38,8 @@ img {
 /* виключення стилів для списків */
 .list {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .nav-container .adres {
   margin-left: 332px;
