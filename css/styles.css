@@ -266,4 +266,5 @@ img {
 .container .menu-nav{
   display: flex;
   gap: 40px;
+padding-left: 0;
 }
