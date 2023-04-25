@@ -2,7 +2,7 @@
   --link-color: #ffffff;
 }
 
-.item-problem{
+.item-problem .title:first-child{
   width: calc((100% - 72px) / 4);
 }
 body {
