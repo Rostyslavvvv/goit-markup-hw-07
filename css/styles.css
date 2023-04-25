@@ -2,7 +2,8 @@
   --link-color: #ffffff;
 }
 
-.item-problem .title:first-child{
+
+.list li.first {
   width: calc((100% - 72px) / 4);
 }
 body {
