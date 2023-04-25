@@ -100,7 +100,7 @@ img {
   text-decoration: none;
 }
 /* hero  */
-.hero > .container {
+.hero.container {
   padding: 188px 0;
 }
 .hero {
