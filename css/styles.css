@@ -175,9 +175,6 @@ img {
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
-.item .filter-all {
-  min-width: 69px;
-}
 .button.filter:hover,
 .button.filter:focus {
   border: 1px solid transparent;
