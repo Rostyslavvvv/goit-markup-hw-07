@@ -291,12 +291,12 @@ img {
   text-align: center;
   margin-bottom: 8px;
 }
-.name-products{
+.name-products {
   padding-top: 32px;
   padding-bottom: 16px;
   padding-left: 16px;
   text-align: left;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 .name .text {
   text-align: center;
@@ -310,9 +310,8 @@ img {
 .section-portfolio {
   padding-bottom: 120px;
 }
-.container .list-products{
+.container .list-products {
   display: flex;
-  flex-wrap:wrap;
-  gap:48px 24px ;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
-
