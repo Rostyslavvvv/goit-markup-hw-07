@@ -2,7 +2,7 @@
   --link-color: #ffffff;
 }
 
-.item-problem{
+.item-problem .title{
   width: calc((100% - 72px) / 4);
 }
 body {
@@ -186,7 +186,7 @@ img {
   letter-spacing: 0.02em;
 }
 /* фон секції команди */
-.photo-team {
+.team {
   margin-top: 0;
   margin-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
