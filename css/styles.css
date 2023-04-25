@@ -180,9 +180,9 @@ img {
 }
 .button.filter:hover,
 .button.filter:focus {
+  border: 1px solid;
   color:var(--link-color);
   background-color: #404bbf;
-  border: 1px solid;
 }
 .list-button {
   display: flex;
