@@ -29,7 +29,6 @@ img {
 .link {
   text-decoration: none;
   padding: 0;
-  
 }
 /* виключення стилів для списків */
 .list {
@@ -86,13 +85,14 @@ img {
   gap: 40px;
   padding-left: 0;
 }
-.menu-nav .link{
+.menu-nav .link,
+.logo-nav .link{
   padding: 24px 0;
 }
 /* адрес */
 .adres a {
   color: #434455;
-  font-style: "Regular";
+  font-style: 'Regular';
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -123,7 +123,7 @@ img {
   background-color: #2E2F42;
   padding: 188px 0;
   height: 600px;
-  max-width: 1440px;
+  width: 1440px;
   margin-left: auto;
   margin-right: auto;
   background-size: cover;
@@ -242,7 +242,7 @@ img {
   margin-bottom: 0;
 
   color: #434455;
-  font-style: "Regular";
+  font-style: 'Regular';
   font-size: 16px;
   line-height: 1.5;
   text-align: Left;
@@ -282,9 +282,11 @@ img {
   margin-top: 0;
   margin-bottom: 16px;
 }
-.text-footer {
+.container.size-t-footer{
   max-width: 264px;
+  box-sizing:content-box;
 }
+
 .logo-footer,
 .text-footer {
   color: #f4f4fd;
@@ -355,6 +357,19 @@ padding-bottom: 24px;
   content: "";
   background-color: #404BBF;
 }
+.icon-footer .icon-networ:active::after,
+.icon-footer .icon-networ:hover::after{
+  display: block;
+  content: "";
+  background-color: #31D0AA;
+}
+.icon-footer .icon-networ::after{
+  margin-top: 0;
+}
+/* колір фону соціальних мереж */
+.footer .icon-net li{
+  background-color: #2e2f42;
+}
 /* заголовки під фото карточками команди */
 .name {
   padding: 32px 16px;
@@ -381,4 +396,20 @@ padding-bottom: 24px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.container-footer{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction:row;
+  gap: 120px;
+  align-items:baseline;
+}
+.text-social{
+  margin-bottom: 16px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+.dobre .container .icon-net{
+  gap: 16px;
 }
