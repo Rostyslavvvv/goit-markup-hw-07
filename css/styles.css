@@ -28,7 +28,8 @@ img {
 /* посилання */
 .link {
   text-decoration: none;
-  padding: 24px 0;
+  padding: 0;
+  
 }
 /* виключення стилів для списків */
 .list {
@@ -202,6 +203,9 @@ img {
 .section {
   padding: 120px 0;
 }
+.section-prob{
+  padding-bottom: 0;
+}
 /* заголовок підсекцій */
 .title {
   margin-top: 0;
@@ -230,7 +234,6 @@ img {
 /* фон секції команди */
 .team {
   margin-top: 0;
-  margin-bottom: 32px;
   border-radius: 0px 0px 4px 4px;
 }
 .team-fon {
@@ -251,7 +254,6 @@ img {
 .footer .logo-nav {
   display: inline-block;
   margin-top: 0;
-  margin-bottom: 16px;
 }
 .text-footer {
   max-width: 264px;
