@@ -159,6 +159,7 @@ img {
   height: 56px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 /* властивість для всіх кнопок */
 .button {
@@ -187,7 +188,6 @@ img {
   min-width: 116px;
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
-
   color: #4d5ae5;
   background-color: #f4f4fd;
 }
@@ -196,6 +196,8 @@ img {
   border: 1px solid transparent;
   color: var(--link-color);
   background-color: #404bbf;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12),
+  0 2px 1px 0 rgba(0, 0, 0, 0.08);
 }
 .list-button {
   display: flex;
@@ -248,8 +250,17 @@ img {
 }
 /* фон секції команди */
 .team {
+  display: inline-block;
   margin-top: 0;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16),
+  0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.pord-activ:hover{
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+  0 1px 1px 0 rgba(46, 47, 66, 0.16),
+  0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-fon {
   background-color: #f4f4fd;
@@ -290,6 +301,28 @@ img {
   line-height: 1.2;
   text-align: left;
   letter-spacing: 0.02em;
+}
+.list-item::before{
+display: block;
+content: "";
+height: 112px;
+background-color: #F4F4FD;
+background-size: 64px;
+background-repeat: no-repeat;
+background-position: center;
+padding-bottom: 24px;
+}
+.icon-antenna::before{
+  background-image: url('../images/antennamin.svg');
+}
+.icon-clock::before{
+  background-image: url('../images/clock.svg');
+}
+.icon-diagram::before{
+  background-image: url('../images/diagram.svg');
+}
+.icon-astronaut::before{
+  background-image: url('../images/astronaut.svg');
 }
 /* заголовки під фото карточками команди */
 .name {
