@@ -86,13 +86,13 @@ img {
   padding-left: 0;
 }
 .menu-nav .link,
-.logo-nav .link{
+.logo-nav .link {
   padding: 24px 0;
 }
 /* адрес */
 .adres a {
   color: #434455;
-  font-style: 'Regular';
+  font-style: "Regular";
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -120,7 +120,7 @@ img {
 
 /* hero  */
 .hero {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   padding: 188px 0;
   height: 600px;
   width: 1440px;
@@ -130,9 +130,10 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(
-    to top,
-    rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)),
+      to top,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url("../images/people.jpg");
 }
 .title-hero {
@@ -196,8 +197,7 @@ img {
   border: 1px solid transparent;
   color: var(--link-color);
   background-color: #404bbf;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12),
-  0 2px 1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08);
 }
 .list-button {
   display: flex;
@@ -220,7 +220,7 @@ img {
 .section {
   padding: 120px 0;
 }
-.section-prob{
+.section-prob {
   padding-top: 0;
 }
 /* заголовок підсекцій */
@@ -242,7 +242,7 @@ img {
   margin-bottom: 0;
 
   color: #434455;
-  font-style: 'Regular';
+  font-style: "Regular";
   font-size: 16px;
   line-height: 1.5;
   text-align: Left;
@@ -254,13 +254,11 @@ img {
   margin-top: 0;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-  0 1px 1px 0 rgba(46, 47, 66, 0.16),
-  0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-.pord-activ:hover{
+.pord-activ:hover {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-  0 1px 1px 0 rgba(46, 47, 66, 0.16),
-  0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-fon {
   background-color: #f4f4fd;
@@ -282,9 +280,9 @@ img {
   margin-top: 0;
   margin-bottom: 16px;
 }
-.container.size-t-footer{
+.container.size-t-footer {
   max-width: 264px;
-  box-sizing:content-box;
+  box-sizing: content-box;
 }
 
 .logo-footer,
@@ -304,70 +302,70 @@ img {
   text-align: left;
   letter-spacing: 0.02em;
 }
-.list-item::before{
-display: block;
-content: "";
-height: 112px;
-background-color: #F4F4FD;
-background-size: 64px;
-background-repeat: no-repeat;
-background-position: center;
-padding-bottom: 24px;
+.list-item::before {
+  display: block;
+  content: "";
+  height: 112px;
+  background-color: #f4f4fd;
+  background-size: 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 24px;
 }
-.icon-antenna::before{
-  background-image: url('../images/antennamin.svg');
+.icon-antenna::before {
+  background-image: url("../images/antennamin.svg");
 }
-.icon-clock::before{
-  background-image: url('../images/clock.svg');
+.icon-clock::before {
+  background-image: url("../images/clock.svg");
 }
-.icon-diagram::before{
-  background-image: url('../images/diagram.svg');
+.icon-diagram::before {
+  background-image: url("../images/diagram.svg");
 }
-.icon-astronaut::before{
-  background-image: url('../images/astronaut.svg');
+.icon-astronaut::before {
+  background-image: url("../images/astronaut.svg");
 }
-.icon-networ::after{
+.icon-networ::after {
   display: block;
   content: "";
   width: 40px;
   height: 40px;
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center ;
+  background-position: center;
   background-color: rgba(77, 90, 229, 1);
   border-radius: 50%;
-  left:0.03px;
-  margin-top: 8px;;
+  left: 0.03px;
+  margin-top: 8px;
 }
-.icon-instagram::after{
-  background-image: url('../images/instagramm.svg');
+.icon-instagram::after {
+  background-image: url("../images/instagramm.svg");
 }
-.icon-feisbook::after{
-  background-image: url('../images/facebook.svg');
+.icon-feisbook::after {
+  background-image: url("../images/facebook.svg");
 }
-.icon-twiter::after{
-  background-image: url('../images/twitter.svg');
+.icon-twiter::after {
+  background-image: url("../images/twitter.svg");
 }
-.icon-linkedin::after{
-  background-image: url('../images/linkedi.svg');
+.icon-linkedin::after {
+  background-image: url("../images/linkedi.svg");
 }
 .icon-networ:active::after,
-.icon-networ:hover::after{
+.icon-networ:hover::after {
   display: block;
   content: "";
-  background-color: #404BBF;
+  background-color: #404bbf;
 }
 .icon-footer .icon-networ:active::after,
-.icon-footer .icon-networ:hover::after{
+.icon-footer .icon-networ:hover::after {
   display: block;
   content: "";
-  background-color: #31D0AA;
+  background-color: #31d0aa;
 }
-.icon-footer .icon-networ::after{
+.icon-footer .icon-networ::after {
   margin-top: 0;
 }
 /* колір фону соціальних мереж */
-.footer .icon-net li{
+.footer .icon-net li {
   background-color: #2e2f42;
 }
 /* заголовки під фото карточками команди */
@@ -397,19 +395,19 @@ padding-bottom: 24px;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.container-footer{
+.container-footer {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  flex-direction:row;
+  flex-direction: row;
   gap: 120px;
-  align-items:baseline;
+  align-items: baseline;
 }
-.text-social{
+.text-social {
   margin-bottom: 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
 }
-.dobre .container .icon-net{
+.dobre .container .icon-net {
   gap: 16px;
 }
