@@ -248,6 +248,9 @@ img {
   text-align: Left;
   letter-spacing: 0.02em;
 }
+.text.text-work{
+  margin-bottom: 8px;
+}
 /* фон секції команди */
 .team {
   display: inline-block;
@@ -304,7 +307,7 @@ img {
 }
 /* заголовки під фото карточками команди */
 .name {
-  padding: 32px 16px 0 16px;
+  padding: 32px 0;
 }
 .name .title {
   text-align: center;
@@ -353,18 +356,6 @@ background-color:#F4F4FD ;
  border-radius: 4px;
  margin-bottom: 8px;
 }
-.container-icon-net{
-  display: flex;
-  justify-content: center;
-  gap: 24px; 
-  }
-  .container-net{
-    padding: 32px 0 ;
-  }
-  .item-icon{
-    width: 40px;
-    height: 40px;
-  }
   .link-icon{
     display: flex;
     width: 100%;
@@ -377,4 +368,16 @@ background-color:#F4F4FD ;
   .link-icon:hover,
   .link-icon:focus{
     background-color: #404bbf;
+  }
+  .list-icon-meseng{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .item-icon-meseng{
+    width: 40px;
+    height: 40px;
+  }
+  .icon-color{
+    fill:#f4f4fd;
   }
