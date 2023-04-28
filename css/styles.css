@@ -346,4 +346,13 @@ img {
   display: flex;
   background-color:#F4F4FD ;
  width: 264px;
+ height: 112px; 
+ align-items: center;
+ justify-content: center;
+ border-radius: 4px;
+ margin-bottom: 8px;
+}
+.icon{
+  width: 64px;
+ height: 64px;
 }
