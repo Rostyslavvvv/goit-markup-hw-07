@@ -345,6 +345,7 @@ img {
 .text-social {
   color: #ffffff;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 /* іконки в 2 секції */
 .container-icon{
