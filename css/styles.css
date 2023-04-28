@@ -283,13 +283,10 @@ img {
   margin-top: 0;
   margin-bottom: 16px;
 }
-.container.size-t-footer {
+.size-t-footer {
   max-width: 264px;
   box-sizing: content-box;
-  margin-right: 120px;
-  margin-left: 0;
-  margin-right: 0;
-  padding: 0;
+  margin-right: 120px ;
 }
 
 .logo-footer,
@@ -327,6 +324,14 @@ img {
   flex-wrap: wrap;
   gap: 48px 24px;
 }
+.container-footer {
+  display: flex;
+  align-items: baseline;
+  margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    padding: 0 15px;
+}
 .section-portfolio {
   padding: 96px 0 120px;
 }
@@ -336,16 +341,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.container-footer {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  flex-direction: row;
-  gap: 120px;
-  align-items: baseline;
-  width: 1158px;
-  padding: 0 15px;
-}
+
 .text-social {
   color: #ffffff;
   font-weight: 500;
