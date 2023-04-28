@@ -286,6 +286,7 @@ img {
 .container.size-t-footer {
   max-width: 264px;
   box-sizing: content-box;
+  margin-right: 120px;
 }
 
 .logo-footer,
@@ -373,6 +374,7 @@ background-color:#F4F4FD ;
     display: flex;
     justify-content: center;
     gap: 24px;
+    list-style: none;
   }
   .item-icon-meseng{
     width: 40px;
@@ -381,3 +383,10 @@ background-color:#F4F4FD ;
   .icon-color{
     fill:#f4f4fd;
   }
+.footer .list-icon-meseng{
+gap: 16px;
+}
+.footer .link-icon:hover,
+.footer .link-icon:focus{
+  background-color: #31D0AA;
+}
