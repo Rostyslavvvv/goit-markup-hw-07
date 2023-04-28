@@ -287,6 +287,9 @@ img {
   max-width: 264px;
   box-sizing: content-box;
   margin-right: 120px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
 .logo-footer,
@@ -340,9 +343,10 @@ img {
   flex-direction: row;
   gap: 120px;
   align-items: baseline;
+  width: 1158px;
+  padding: 0 15px;
 }
 .text-social {
-  margin-bottom: 16px;
   color: #ffffff;
   font-weight: 500;
 }
@@ -375,6 +379,8 @@ background-color:#F4F4FD ;
     justify-content: center;
     gap: 24px;
     list-style: none;
+    position: relative;
+    padding-left: 0;
   }
   .item-icon-meseng{
     width: 40px;
