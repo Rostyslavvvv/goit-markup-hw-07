@@ -270,9 +270,10 @@ img {
   background-color: var(--link-color);
 }
 /* foter */
-.logo-footer {
+.footer .size-t-footer .logo-footer {
   margin-top: 0;
   margin-bottom: 16px;
+  padding: 0;
 }
 .footer {
   background-color: #2e2f42;
@@ -282,6 +283,7 @@ img {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 16px;
+  padding: 0;
 }
 .size-t-footer {
   max-width: 264px;
