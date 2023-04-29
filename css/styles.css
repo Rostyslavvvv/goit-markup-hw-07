@@ -186,11 +186,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 116px;
-  padding: 12px 24px;
+  width: 116px;
+  height:48px;
+  padding: auto;
   border: 1px solid #e7e9fc;
+  text-align: center;
   color: #4d5ae5;
   background-color: #f4f4fd;
+}
+.list-button .filter-all{
+  width: 69px;
 }
 .button.filter:hover,
 .button.filter:focus {
