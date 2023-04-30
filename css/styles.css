@@ -409,9 +409,12 @@ gap: 16px;
   fill: rgba(142, 143, 153, 1);
 }
 .link-client:hover,
-.link-client:focus{
+.link-client:focus,
+.icon-client:hover,
+.icon-client:focus{
 border-color: #404bbf;
 color: #404bbf;
+fill: #404bbf;
 }
 .item-icon-client{
   width: 168px;
