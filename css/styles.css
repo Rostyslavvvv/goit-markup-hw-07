@@ -460,7 +460,8 @@ img {
   overflow: auto;
   font-weight: 400;
 }
-.pord-activ:hover .tumba {
+.pord-activ:hover .tumba,
+.pord-activ:focus .tumba {
   opacity: 1;
 }
 .link-menu::after {
