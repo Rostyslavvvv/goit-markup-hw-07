@@ -467,6 +467,7 @@ img {
 .pord-activ:focus .tumba {
   opacity: 1;
 }
+/* підкреслення меню коли сторінка активна */
 .link-menu-ackt::after {
   position: absolute;
   bottom: -5%;
@@ -481,15 +482,16 @@ img {
   border-radius: 2px;
   opacity: 0;
 }
-.link {
-  position: relative;
-}
 .bod:hover .link-menu-ackt::after {
   opacity: 1;
 }
-.bod-p:hover .link-menu-ackt::after{
+.bod-p:hover .link-menu-ackt::after {
   opacity: 1;
 }
+.link {
+  position: relative;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
