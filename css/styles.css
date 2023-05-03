@@ -467,7 +467,7 @@ img {
 .pord-activ:focus .tumba {
   opacity: 1;
 }
-.link-menu::after {
+.link-menu-ackt::after {
   position: absolute;
   bottom: -5%;
   left: 0;
@@ -484,7 +484,10 @@ img {
 .link {
   position: relative;
 }
-.link-menu:hover::after {
+.bod:hover .link-menu-ackt::after {
+  opacity: 1;
+}
+.bod-p:hover .link-menu-ackt::after{
   opacity: 1;
 }
 .backdrop {
