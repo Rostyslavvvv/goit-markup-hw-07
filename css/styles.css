@@ -488,7 +488,7 @@ img {
   color: #f4f4fd;
 }
 /* підкреслення меню коли сторінка активна */
-.link-menu-ackt::after {
+.link-menu-acktive::after {
   position: absolute;
   bottom: -5%;
   left: 0;
@@ -500,17 +500,6 @@ img {
   background-color: #404bbf;
 
   border-radius: 2px;
-  opacity: 0;
-}
-/* сторінка Index */
-.bod-i:hover .link-menu-ackt::after,
-.bod-i:focus .link-menu-ackt::after {
-  opacity: 1;
-}
-/* сторінка портфоліо */
-.bod-p:hover .link-menu-ackt::after,
-.bod-p:focus .link-menu-ackt::after {
-  opacity: 1;
 }
 .link {
   position: relative;
