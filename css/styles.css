@@ -606,8 +606,7 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
-  padding-left: 16px;
-  padding-top: 8px;
+padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
 .textarea::placeholder{
@@ -650,4 +649,40 @@ img {
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
+ 
+}
+.box-subscribe{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.button.order.subscribe{
+  width:165px ;
+  height:40px ;
+  padding: 8px 24px;
+  text-align: left;
+}
+.box-sending{
+  margin-left: 80px;
+}
+.imput-forms.foot{
+  width: 264px;
+  background-color: rgba(46, 47, 66, 1);
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  accent-color: #FFFFFF;
+  color: #FFFFFF;
+}
+.form-box.foot{
+  margin-left: 0;
+}
+.subscribe-svg{
+  position: absolute;
+  padding-left: 16px;
+  
+  
+}
+.subscribe{
+  position: relative;
 }
