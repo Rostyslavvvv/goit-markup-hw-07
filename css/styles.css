@@ -706,7 +706,7 @@ img {
 .wes:focus .icon-imput .icon-client {
   color: blue;
 }
-.imput-forms:focus ~ .icon-imput .icon-client {
+.imput-forms:focus + .icon-imput .icon-client {
   color: #4d5ae5;
 }
 .imput-forms:focus {
