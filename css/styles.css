@@ -700,20 +700,20 @@ img {
 .conteiner-icon-imput {
   position: relative;
 }
-.icon-imput .icon-client{
- color: #2E2F42 ;
+.icon-imput .icon-client {
+  color: #2e2f42;
 }
-.wes:focus .icon-imput .icon-client{
-  color: blue ;
+.wes:focus .icon-imput .icon-client {
+  color: blue;
 }
-.imput-forms:focus ~ .icon-imput .icon-client{
-  color: #4D5AE5;
+.imput-forms:focus ~ .icon-imput .icon-client {
+  color: #4d5ae5;
 }
-.imput-forms:focus{
+.imput-forms:focus {
   outline: none;
-  border: 1px solid #4D5AE5;
+  border: 1px solid #4d5ae5;
 }
-.textarea:focus{
+.textarea:focus {
   outline: none;
-  border: 1px solid #4D5AE5;
+  border: 1px solid #4d5ae5;
 }
