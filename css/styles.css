@@ -593,7 +593,7 @@ img {
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-.pick-seva{
+.pick-seva {
   width: 16px;
   height: 16px;
 }
@@ -606,10 +606,10 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
-padding: 8px 16px;
+  padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
 }
-.textarea::placeholder{
+.textarea::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 .name-forms {
@@ -625,7 +625,7 @@ padding: 8px 16px;
   letter-spacing: 0.01em;
   margin-top: 8px;
   margin-bottom: 4px;
-  color: #8E8F99;
+  color: #8e8f99;
 }
 .name-forms.name-forms-name {
   margin-top: 0;
@@ -649,40 +649,71 @@ padding: 8px 16px;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
- 
+  padding-left: 38px;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
-.box-subscribe{
+.box-subscribe {
   display: flex;
   flex-direction: row;
   align-items: left;
 }
-.button.order.subscribe{
-  width:165px ;
-  height:40px ;
+.button.order.subscribe {
+  width: 165px;
+  height: 40px;
   padding: 8px 24px;
   text-align: left;
 }
-.box-sending{
+.box-sending {
   margin-left: 80px;
 }
-.imput-forms.foot{
+.imput-forms.foot {
   width: 264px;
   background-color: rgba(46, 47, 66, 1);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  accent-color: #FFFFFF;
-  color: #FFFFFF;
+  accent-color: #ffffff;
+  color: #ffffff;
 }
-.form-box.foot{
+.form-box.foot {
   margin-left: 0;
 }
-.subscribe-svg{
+.subscribe-svg {
   position: absolute;
   padding-left: 16px;
-  
-  
 }
-.subscribe{
+.subscribe {
   position: relative;
+}
+.box-f {
+  position: relative;
+}
+
+.icon-imput {
+  position: absolute;
+  top: 14px;
+  left: 19px;
+
+  transform: translate(-14%, -19%);
+}
+.conteiner-icon-imput {
+  position: relative;
+}
+.icon-imput .icon-client{
+ color: #2E2F42 ;
+}
+.wes:focus .icon-imput .icon-client{
+  color: blue ;
+}
+.imput-forms:focus ~ .icon-imput .icon-client{
+  color: #4D5AE5;
+}
+.imput-forms:focus{
+  outline: none;
+  border: 1px solid #4D5AE5;
+}
+.textarea:focus{
+  outline: none;
+  border: 1px solid #4D5AE5;
 }
