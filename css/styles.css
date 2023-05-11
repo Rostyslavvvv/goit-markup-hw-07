@@ -594,6 +594,8 @@ img {
   margin-left: 8px;
   letter-spacing: 0.04em;
   color: #8e8f99;
+
+  padding-left: 24px;
 }
 .pick-seva {
   width: 16px;
@@ -704,7 +706,6 @@ img {
   position: absolute;
   top: 14px;
   left: 19px;
-
   transform: translate(-14%, -19%);
 }
 .conteiner-icon-imput {
@@ -725,9 +726,15 @@ img {
 }
 
 .checkbox {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
   margin-right: 8px;
 }
 .checkbox:not(:checked) + .icon-imput .click {
