@@ -358,7 +358,6 @@ img {
 .name-products {
   padding: 32px 16px;
   border-top: none;
-
   border: 1px solid #e7e9fc;
 }
 
@@ -454,6 +453,7 @@ img {
 /* текст на картинці у портфоліо */
 .tumba-div {
   position: relative;
+  overflow: hidden;
 }
 .tumba {
   position: absolute;
