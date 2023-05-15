@@ -345,7 +345,7 @@ img {
 }
 .container-footer {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
 
   margin-left: auto;
   margin-right: auto;
@@ -683,7 +683,7 @@ img {
 .imput-forms.foot {
   width: 264px;
   padding-left: 16px;
-  
+
   background-color: rgba(46, 47, 66, 1);
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -761,8 +761,8 @@ img {
   top: 2px;
 }
 
-.privacy{
-  color: #4D5AE5;
- margin-left: 1px;
- font-weight: 400;
+.privacy {
+  color: #4d5ae5;
+  margin-left: 1px;
+  font-weight: 400;
 }
