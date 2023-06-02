@@ -25,7 +25,7 @@
           <a href="./index.html" class="logo-nav link"
             >Web<span class="logo-studio link">Studio</span></a
           >
-          <ul class="menu-nav list">
+          <ul class="menu-nav list menu">
             <li class="item">
               <a href="./index.html" class="link link-menu-acktive">Studio</a>
             </li>
@@ -36,15 +36,72 @@
               <a href="" class="link">Contacts</a>
             </li>
           </ul>
+          <button type="button" class="menu-button is-open open-button" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <svg width="8" height="8" class="svg-menu">
+              <use class=" icon-menu icon-exid-menu  svg-menu-exid" href="./images/icons.svg#icon-exid"></use>
+            </svg>
+            <svg width="24" height="24" class="svg-menu svg-menu-hamburger">
+                <use class="icon-hamb icon-cross" href="./images/icons.svg#icon-charm-hamburger-1"></use>
+            </svg>
+          </button>
+          <ul class="menu-nav list menu menu-tel" id="menu-container" data-menu>
+            <li class="item item-menu">
+              <a href="./index.html" class="link link-menu-acktive">Studio</a>
+            </li>
+            <li class="item item-menu">
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li class="item item-menu">
+              <a href="" class="link">Contacts</a>
+            </li>
+            <li class="item list-tel item-menu item-menu-tel">
+              <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+            </li>
+            <li class="item list-contact item-mail">
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <ul class="list list-icon-meseng menu-icon">
+              <li class="item item-icon-meseng">
+                <a href="" class="link-icon">
+                  <svg width="24" height="24" class="icon-color">
+                    <use href="./images/icons.svg#icon-instagramm"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item item-icon-meseng">
+                <a href="" class="link-icon">
+                  <svg width="24" height="24" class="icon-color">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item item-icon-meseng">
+                <a href="" class="link-icon">
+                  <svg width="24" height="24" class="icon-color">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="item item-icon-meseng">
+                <a href="" class="link-icon">
+                  <svg width="24" height="24" class="icon-color">
+                    <use href="./images/icons.svg#icon-linkedi"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            </ul>
         </nav>
         <address class="adres">
-          <ul class="list">
+          <ul class="list" >
             <li class="item list-contact">
               <a href="mailto:info@devstudio.com" class="link"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="item">
+            <li class="item list-tel">
               <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
             </li>
           </ul>
@@ -199,7 +256,7 @@
       <section class="section section-prob">
         <div class="container">
           <h2 class="title-section">What are we doing</h2>
-          <ul class="list">
+          <ul class="list list-tex">
             <li class="item">
               <img src="./images/img1.jpg" alt="Monitor" width="360" />
             </li>
@@ -223,13 +280,15 @@
           <ul class="list">
             <li class="item team">
               <img
-                src="./images/img4.jpg"
+              srcset="./images/mark1x.jpg 1x, 
+              ./images/mark2x.jpg 2x"
+                src="./images/mark1x.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 class="photo-team"
               />
               <div class="name">
-                <h3 class="title">Mark Guerrero</h3>
+                <h3 class="title name-team">Mark Guerrero</h3>
                 <p class="text text-work">Product Designer</p>
                 <ul class="list list-icon-meseng">
                   <li class="item item-icon-meseng">
@@ -265,13 +324,15 @@
             </li>
             <li class="item team">
               <img
-                src="./images/img5.jpg"
+              srcset="./images/tom.jpg 1x, 
+              ./images/tom2x.jpg 2x"
+                src="./images/tom.jpg"
                 alt="Tom Ford"
                 width="264"
                 class="photo-team"
               />
               <div class="name">
-                <h3 class="title">Tom Ford</h3>
+                <h3 class="title name-team">Tom Ford</h3>
                 <p class="text text-work">Frontend Developer</p>
                 <ul class="list list-icon-meseng">
                   <li class="item item-icon-meseng">
@@ -307,13 +368,15 @@
             </li>
             <li class="item team">
               <img
-                src="./images/img6.jpg"
+              srcset="./images/camila.jpg 1x, 
+              ./images/camila2x.jpg 2x"
+                src="./images/camila.jpg"
                 alt="Camila Garcia"
-                width="264"
+                width="296"
                 class="photo-team"
               />
               <div class="name">
-                <h3 class="title">Camila Garcia</h3>
+                <h3 class="title name-team">Camila Garcia</h3>
                 <p class="text text-work">Marketing</p>
                 <ul class="list list-icon-meseng">
                   <li class="item item-icon-meseng">
@@ -349,13 +412,15 @@
             </li>
             <li class="item team">
               <img
-                src="./images/img7.jpg"
+              srcset="./images/daniel.jpg 1x, 
+              ./images/daniel2x.jpg 2x"
+                src="./images/daniel.jpg"
                 alt="Daniel Wilson"
-                width="264"
+                width="296"
                 class="photo-team"
               />
               <div class="name">
-                <h3 class="title">Daniel Wilson</h3>
+                <h3 class="title name-team">Daniel Wilson</h3>
                 <p class="text text-work">UI Designer</p>
                 <ul class="list list-icon-meseng">
                   <li class="item item-icon-meseng">
@@ -393,48 +458,48 @@
         </div>
       </section>
       <!-- Section-5 бренди -->
-      <section class="section">
+      <section class="section section-icon">
         <div class="container">
-          <h2 class="title-section">Customers</h2>
-          <ul class="list">
+          <h2 class="title-section title-customers">Customers</h2>
+          <ul class="list list-client">
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
             <li class="item-icon-client">
               <a href="" class="link-client">
-                <svg width="104" height="56" class="icon-client">
+                <svg width="110" height="56" class="icon-client">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
               </a>
@@ -455,7 +520,7 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div>
+        <div class="container-social">
           <p class="text text-social">Social media</p>
           <ul class="list-icon-meseng">
             <li class="item item-icon-meseng">
@@ -489,7 +554,7 @@
           </ul>
         </div>
         <div class="box-sending">
-          <p class="text text-social">Subscribe</p>
+          <p class="text text-social text-subscribe">Subscribe</p>
           <div class="box-subscribe">
             <form class="form-box foot">
               <input
